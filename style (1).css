@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(180deg, #ffd6ec, #fff);
+  font-family: "Comic Sans MS", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  background: white;
+  padding: 25px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 0 20px pink;
+  width: 300px;
+}
+
+h1 {
+  color: #ff6fae;
+}
+
+.subtitle {
+  color: #ff8fc7;
+  font-size: 14px;
+}
+
+.wheel {
+  font-size: 70px;
+  margin: 20px 0;
+  transition: transform 1s;
+}
+
+button {
+  background: #ff9ecd;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-size: 18px;
+}
+
+.result {
+  margin-top: 15px;
+  background: #ffe6f2;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+@keyframes bounce {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
